@@ -1,0 +1,25 @@
+# Local environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+node_modules/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Media, credentials, private tracker and draft production assets do not belong here
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.key
+*.pem
+tracker/
+production/
+raw footage/
+export/
